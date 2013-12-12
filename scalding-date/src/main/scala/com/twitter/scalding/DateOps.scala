@@ -28,6 +28,7 @@ import scala.util.matching.Regex
 */
 object DateOps extends java.io.Serializable {
   val PACIFIC = TimeZone.getTimeZone("America/Los_Angeles")
+  val EASTERN = TimeZone.getTimeZone("America/New_York")
   val UTC = TimeZone.getTimeZone("UTC")
 
   val DATE_WITH_DASH = "yyyy-MM-dd"
